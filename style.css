@@ -1,0 +1,84 @@
+/* CSS Document */
+
+#body 
+{
+padding-top: 7%;
+text-align: center; 
+margin: 0 auto;  
+}
+
+#id1
+{
+/*margin: 0 auto;  */
+top:30%;
+}
+
+#id2
+{
+/*margin: 0 auto;  */
+display:none
+}
+
+.center
+{
+margin: 0 auto;  
+width:20%;
+text-align: center; 
+}
+#id4
+{
+margin: 0 auto;  
+}
+
+
+#label {
+    /*float: right;*/
+    width: 100px; /* change this to whatever you want */
+    /* these make it look nicer */
+    /*text-align: center;*/
+    padding-right: 10px;
+}
+#txt
+{
+position:fixed;
+top:1%;
+left:5%;
+
+}
+
+#txt1
+{
+position:fixed;
+top:4%;
+left:1%;
+}
+
+#txt2
+{
+position:fixed;
+bottom:4%;
+right:1%;
+}
+
+
+#footer
+{
+bottom:5%;
+position:fixed;
+right:39%;
+
+}
+#td
+{
+border:none;
+}
+
+.positionFix
+{
+position:fixed;
+right:42%;
+top:10%;
+}
+
+.displayNone{display:none;}
+.displayInline{display:none;}

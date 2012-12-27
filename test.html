@@ -1,0 +1,79 @@
+<!--Developer:-Nishant Kumar
+	AppName:-JavaScript Practice Page
+	Created At:Aspire Software Consultancy--->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Main Page</title>
+<link rel="stylesheet" type="text/css" href="bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="bootstrap-responsive.css" />
+<script language="javascript" src="test.js" type="text/javascript">startTime();</script>
+<script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
+</head>
+<!--===============================================================End of Head=================Start of Body=================================================================-->
+<body onload="startTime()">
+<div id="txt" style="padding-left:4%"></div>
+<div style="padding-left:1%">
+  <script type="text/javascript" language="javascript">
+ var d=new Date();
+document.write(d.toLocaleDateString()+"<br /><br />");
+</script>
+</div>
+<!--===================================================================Div id=1================================================================================================-->
+<div id="divForm1" class="row container">
+  <div class="span12 pagination-centered">
+    <form action="" method="get" name="login" target="_self" class="row span12 pagination-centered">
+      <legend class="row span12 pagination-centered">Enter My JavaScript Page</legend>
+      <p class="span12 pagination-centered" align="justify">
+        <label class="row">UserName</label>
+        &nbsp;&nbsp;
+        <input name="uname" type="text" onBlur="return validateUname()" maxlength="25" />
+      </p>
+      <p align="justify" class="row span12 pagination-centered">
+        <label class="row">Password</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <input name="pwd" type="password" onBlur="return validatePwd()" maxlength="25" />
+      </p>
+      <p align="justify" class="row span12 pagination-centered">
+        <label class="row">Email</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input name="email" type="text" onblur="return emailchk();emptyvalidation();" />
+      </p>
+                          
+      <input name="submit" type="submit" value="Get In...!" onclick="showHide()" />
+    </form>
+  </div>
+</div>
+<!--=================================================================End of Div id=1=======================================================================================-->
+<!--=================================================================Div id=2==============================================================================================-->
+<div id="divForm2" class="row container">
+  <div class="span12 pagination-centered">
+    <p class="span12 pagination-centered" align="justify"><a href="JavaScript:void()" onclick="times()" style="text-decoration:none">Gives times of a number.</a></p>
+    <p class="span12 pagination-centered" align="justify"> <a href="JavaScript:void()" onclick="fullName()">Full Name using ALERT.</a></p>
+    <p class="span12 pagination-centered" align="justify"><a href="JavaScript:void()" onclick="carRandom()" style="text-decoration:none">Random Cars Alert.</a></p>
+    <p class="span12 pagination-centered" align="justify"> <a href="JavaScript:void()" onclick="iceCreamSwitch()">Choose IceCream Using switch statement.</a></p>
+    <p class="span12 pagination-centered" align="justify"><a href="JavaScript:void()" onclick="iceCreamIfElse()" style="text-decoration:none">Choose IceCream Using IfElse statement.</a></p>
+    <p class="span12 pagination-centered" align="justify"> <a href="JavaScript:void()" onclick="numberMath()">Simple Number addition using prompt.</a></p>
+    <p class="span12 pagination-centered" align="justify"><a href="JavaScript:void()" onclick="randomNum()" style="text-decoration:none">Choose Random numbers between 1-200.</a></p>
+    <p class="span12 pagination-centered" align="justify"><a href="JavaScript:void()" onclick="window.open('http://www.facebook.com','mywindow','width=300,height=200,scrollbars=yes')">Facebook</a></p>
+    <p class="span12 pagination-centered" align="justify"><a href="JavaScript:void()" onclick="">Lets see What u had filled in form.</a></p>
+  </div>
+</div>
+<!--=================================================================End of Div id=2=======================================================================================-->
+<div>
+  <script type="text/javascript" language="javascript">
+document.write("This Page was Last Modified on "+document.lastModified);
+</script>
+  <noscript>
+  Your browser does not support JavaScript!
+  </noscript>
+  <br/>
+  <br/>
+  <font>Created By :- Nishant Kumar</font> </div>
+<div>Mail Me Your Queries Reagarding Me...!<br />
+  <a href="mailto:vishu_nishu007@live.in?Subject=Hello%20again" style="text-decoration:blink">HERE </a></div>
+<!--=================================================================End of Document=======================================================================================-->
+</body>
+</html>
